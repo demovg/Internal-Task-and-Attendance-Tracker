@@ -5,11 +5,11 @@
 A comprehensive attendance and task management system with separate frontend and backend organization.
 
 
-# 1.Project Description
+## 1.Project Description
 
-=> The "Internal Task and Attendance Tracker" is a secure web-based application designed to streamline task assignment, daily attendance monitoring, and progress tracking for interns and staff. It provides an efficient way for team leads and managers to allocate work, monitor task status, and generate attendance insights.
+* The "Internal Task and Attendance Tracker" is a secure web-based application designed to streamline task assignment, daily attendance monitoring, and progress tracking for interns and staff. It provides an efficient way for team leads and managers to allocate work, monitor task status, and generate attendance insights.
 
-=> This system is especially useful for "internship management", "team productivity tracking", and "daily workflow coordination".
+* This system is especially useful for "internship management", "team productivity tracking", and "daily workflow coordination".
 
 ## Project Structure
 

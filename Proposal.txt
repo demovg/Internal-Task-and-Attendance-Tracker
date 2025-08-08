@@ -1,0 +1,204 @@
+📄 Project Proposal: Internal Task and Attendance Tracker System
+🧠 Project Title: INSA Internal Task and Attendance Tracker
+
+👨‍Submitted by: Abrham Habtamu
+
+Full-Stack Developer Intern
+Information Network Security Agency (INSA)
+
+
+1. 📝 Project Description:
+
+=> The "INSA Internal Task and Attendance Tracker" is a secure web-based application designed to streamline task assignment, daily attendance monitoring, and progress tracking for interns and staff. It provides an efficient way for team leads and managers to allocate work, monitor task status, and generate attendance insights.
+
+=>This system is especially useful for "internship management", "team productivity tracking", and "daily workflow coordination" within INSA departments.
+
+
+
+2. 🎯 Objectives:
+
+* Allow employees/interns to "check in and out" daily.
+* Enable managers to "assign tasks" and track task progress.
+* Provide real-time "dashboards" for both users and admins.
+* Enhance "organizational efficiency" and accountability.
+* Ensure "role-based access" and secure data management.
+
+
+
+ 3. 👥 User Roles and Permissions:
+
+Admin (Manager, Supervisor)
+
+* Manage users
+* Assign & monitor tasks
+* View attendance logs
+* View statistics dashboard
+
+User (Intern, Employee)
+
+* Check in / check out
+* View personal attendance records
+* View and update assigned tasks
+
+
+
+ 4. 🧩 Key Features:
+
+Authentication & Authorization
+
+* Login/Logout
+* JWT-based security
+* Role-based routing (Admin/User)
+
+Attendance Module
+
+* Daily check-in/check-out
+* View history with date, time, and IP/Device info (optional)
+* Admin view of attendance records by user/date
+
+Task Management Module
+
+* Admin assigns tasks to users
+* Tasks include title, description, deadline, priority
+* Users can update task status: `Pending`, `In Progress`, `Completed`
+* Tasks visible in user dashboard
+
+Dashboard & Reports
+
+Admin:
+
+  * Daily/weekly attendance summary
+  * Task progress charts
+  * Recent activity logs
+
+User:
+
+  * Today’s attendance status
+  * Assigned tasks & deadlines
+  * Task progress bar
+
+User Profile Management
+
+* View/edit profile (basic info)
+* Change password
+* View own attendance & tasks
+
+
+
+ 5. 📄 Pages and Components:
+
+ 👤 Authentication
+
+* `Login Page`
+* `Register Page` *(optional for admins only)*
+
+ 👨‍💼 Admin Pages*
+
+* `Dashboard` — overview stats (tasks, attendance)
+* `Users Page` — list of all users, search/filter
+* `Attendance Logs` — filterable by date/user
+* `Task Manager` — assign/view tasks
+* `Reports` — exportable summary (optional)
+
+ 👨‍🎓 User Pages
+
+* `User Dashboard` — attendance + assigned tasks
+* `Check-in/Check-out Page`
+* `My Tasks` — with status update controls
+* `Attendance History`
+
+ ⚙️ **Shared**
+
+* `Navbar`
+* `Sidebar` (with role-based menu items)
+* `Notifications` (for task updates, check-in success, etc.)
+
+
+
+ 6. 🛠️ Technology Stack:
+
+ Frontend:
+
+* React.js + TypeScript
+* Tailwind CSS + shadcn/ui
+* Axios or Fetch for API requests
+* Zustand or Context API for state management
+
+ Backend:
+
+* Node.js + Express.js
+* MongoDB with Mongoose
+* JWT for authentication
+* Bcrypt for password hashing
+
+ Optional Tools:
+
+* Chart.js or Recharts (for dashboard visuals)
+* Multer (if file attachments are allowed for tasks)
+* Postman (for API testing)
+
+
+
+ 7. 🗂️ Database Schema (Brief Overview)
+
+ 🔸 User Model:
+
+```ts
+{
+  name,
+  email,
+  role, // 'admin' | 'user'
+  passwordHash,
+  createdAt
+}
+```
+
+ 🔸 Task Model:
+
+```ts
+{
+  title,
+  description,
+  assignedTo (User ID),
+  status, // 'pending' | 'in-progress' | 'completed'
+  priority, // 'low', 'medium', 'high'
+  dueDate,
+  createdAt
+}
+```
+
+ 🔸 Attendance Model:
+
+```ts
+{
+  userId,
+  date,
+  checkInTime,
+  checkOutTime,
+  deviceInfo (optional),
+  ipAddress (optional)
+}
+```
+
+
+
+ 8. 📅 Timeline (3-Month Roadmap)
+
+| Week  | Task                                                                 |
+| -- | -- |
+| 1–2   | Requirement gathering, UI design, setup backend/frontend boilerplate |
+| 3–4   | Authentication system, User roles, DB schemas                        |
+| 5–6   | Attendance module implementation                                     |
+| 7–8   | Task management system                                               |
+| 9–10  | Admin dashboards, charts, filtering                                  |
+| 11–12 | Testing, bug fixing, documentation, presentation                     |
+
+
+
+ 9. 📌 Final Deliverables:
+
+* Fully functional web app (deployed locally or on cloud)
+* Documentation (README + DB Schema + Admin Guide)
+* Presentation slides
+* (Optional) GitHub repo with clean code and commit history
+

@@ -11,6 +11,25 @@ A comprehensive attendance and task management system with separate frontend and
 
 * This system is especially useful for "internship management", "team productivity tracking", and "daily workflow coordination".
 
+## 2.Objectives
+* Allow employees/interns to "check in and out" daily.
+* Enable managers to "assign tasks" and track task progress.
+* Provide real-time "dashboards" for both users and admins.
+* Enhance "organizational efficiency" and accountability.
+* Ensure "role-based access" and secure data management.
+
+## 3.User Roles and Permissions
+  ### Admin (Manager, Supervisor)
+         * Manage users
+         * Assign & monitor tasks View attendance logs
+         * View statistics dashboard
+         
+  ### User (Intern, Employee)
+        * Check in / check out
+        * View personal attendance records
+        * View and update assigned tasks
+
+
 ## Project Structure
 
 ```

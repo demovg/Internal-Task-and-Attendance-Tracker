@@ -19,12 +19,12 @@ A comprehensive attendance and task management system with separate frontend and
 * Ensure "role-based access" and secure data management.
 
 ## 3.User Roles and Permissions
-    ### Admin (Manager, Supervisor)
+     Admin (Manager, Supervisor)
          * Manage users
          * Assign & monitor tasks View attendance logs
          * View statistics dashboard
          
-    ### User (Intern, Employee)
+     User (Intern, Employee)
         * Check in / check out
         * View personal attendance records
         * View and update assigned tasks

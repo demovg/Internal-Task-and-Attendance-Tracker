@@ -1,6 +1,15 @@
 # Internal Task and Attendance Tracker
 ![img alt](https://github.com/demovg/Internal-Task-and-Attendance-Tracker/blob/2ce6d28cd81b2cef3966dedf4577d26077ff1a8d/Time%20management%20Illustration.jpeg)
+
+
 A comprehensive attendance and task management system with separate frontend and backend organization.
+
+
+# 1.Project Description
+
+=> The "Internal Task and Attendance Tracker" is a secure web-based application designed to streamline task assignment, daily attendance monitoring, and progress tracking for interns and staff. It provides an efficient way for team leads and managers to allocate work, monitor task status, and generate attendance insights.
+
+=> This system is especially useful for "internship management", "team productivity tracking", and "daily workflow coordination".
 
 ## Project Structure
 

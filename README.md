@@ -28,6 +28,26 @@ A comprehensive attendance and task management system with separate frontend and
         * Check in / check out
         * View personal attendance records
         * View and update assigned tasks
+ 4. Key Features
+      ### Authentication & Authorization
+        * Login/Logout
+        * JWT-based security
+        * Role-based routing (Admin/User)
+
+      ### Attendance Module
+        * Daily check-in/check-out
+        * View history with date, time, and IP/Device info (optional)
+        * Admin view of attendance records by user/date
+     ### Task Management Module
+        * Admin assigns tasks to users
+        * Tasks include title, description, deadline, priority
+        * Users can update task status: `Pending`, `In Progress`, `Completed`
+        * Tasks visible in user dashboard
+     ### Dashboard & Reports
+   ## Admin:
+     * Daily/weekly attendance summary
+     * Task progress charts
+     * Recent activity logs
 
 
 ## Project Structure

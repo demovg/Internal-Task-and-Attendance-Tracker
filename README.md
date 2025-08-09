@@ -1,5 +1,5 @@
 # Internal Task and Attendance Tracker
-![img alt](https://github.com/demovg/Internal-Task-and-Attendance-Tracker/blob/2ce6d28cd81b2cef3966dedf4577d26077ff1a8d/Time%20management%20Illustration.jpeg)
+![img alt align="center"](https://github.com/demovg/Internal-Task-and-Attendance-Tracker/blob/2ce6d28cd81b2cef3966dedf4577d26077ff1a8d/Time%20management%20Illustration.jpeg)
 
 
 A comprehensive attendance and task management system with separate frontend and backend organization.
